@@ -1,6 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06BBCC;
+    /* --primary: #06BBCC; */
+    --primary: #fd000a;
     --light: #F0FBFC;
     --dark: #181d38;
 }
@@ -77,6 +78,11 @@
 
 
 /*** Navbar ***/
+.logo{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
