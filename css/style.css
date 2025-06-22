@@ -158,6 +158,11 @@
 
 
 /*** Header carousel ***/
+.banner > img {
+    width: 1366px;
+    height: 768px;
+    object-fit: cover;
+}
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
         position: relative;
